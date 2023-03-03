@@ -13,3 +13,5 @@ Things to have installed:
 - Enter 'node index'
 - Answer the prompts 
 - README file will be found in output folder
+- A video on a walkthrough can be found [here]
+
