@@ -72,7 +72,10 @@ function promptUser() {
 
 // TODO: Create a function to initialize app
 async function init() {
-    
+    const answers = await promptUser();
+    const content = generateReadme(answers);
+    await writeFileAsync('./output/README.md', content);
+    console.log('README file successfully created!');
 }
 
 // Function call to initialize app
